@@ -9,9 +9,7 @@ const storage = multer.diskStorage({
     cb(null, path.join(__dirname, '..', 'uploads'));
   },
   filename: (req, file, cb) => {
-    // Se genera un nombre único para evitar conflictos
-    const uniqueName = Date.now() + '-' + file.originalname;
-    cb(null, uniqueName);
+    cb(null, file.originalname); // Guarda con el nombre original, como 'Cuentas.csv'
   }
 });
 
