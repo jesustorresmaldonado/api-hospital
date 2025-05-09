@@ -1,0 +1,62 @@
+id_turno,id_cuenta,id_especialidad,legajo_medico,fecha,horario,obra_social,motivo_consulta,estado,observaciones
+2001,C0001,7,1007,2025-05-06,15:00,OSDE,Dolor de cabeza,reservado,0
+2002,C0002,15,1015,2025-05-06,12:30,Swiss Medical,Control anual,reservado,0
+2003,C0003,1,1001,2025-05-07,09:30,Galeno,Fiebre persistente,confirmado,Paciente habitual
+2004,C0004,14,1014,2025-05-07,14:00,IOMA,Dolor abdominal,cancelado,Cancelado por el médico
+2005,C0005,3,1003,2025-05-08,08:30,OSDE,Chequeo cardiológico,reservado,0
+2006,C0006,7,1007,2025-05-08,15:00,PAMI,Consulta por mareos,confirmado,Llega tarde habitualmente
+2007,C0007,1,1020,2025-05-09,10:00,Galeno,Control post-quirúrgico,reservado,0
+2008,C0008,3,1003,2025-05-09,08:15,OSDE,Control presión,reservado,0
+2009,C0009,3,1003,2025-05-10,11:00,IOMA,Dolor de pecho,confirmado,0
+2010,C0010,15,1017,2025-05-10,09:00,Swiss Medical,Control de rutina,reservado,0
+2011,C0011,1,1020,2025-05-11,11:00,OSDE,Control de medicación,confirmado,Trae estudios
+2012,C0012,9,1009,2025-05-11,13:00,PAMI,Control de diabetes,cancelado,Reprogramado
+2013,C0013,6,1006,2025-05-12,13:00,IOMA,Dolor lumbar,reservado,Primera vez
+2014,C0014,15,1018,2025-05-12,14:30,Galeno,Revisión general,reservado,0
+2015,C0015,3,1003,2025-05-13,09:00,OSDE,Control del corazón,confirmado,0
+2016,C0016,7,1007,2025-05-13,15:00,Swiss Medical,Cefaleas recurrentes,reservado,0
+2017,C0017,15,1015,2025-05-14,09:00,IOMA,Control post-vacuna,reservado,0
+2018,C0018,6,1006,2025-05-14,13:30,OSDE,Dolor de rodilla,confirmado,Paciente deportista
+2019,C0019,3,1003,2025-05-15,09:00,PAMI,Control presión,reservado,0
+2020,C0020,15,1017,2025-05-15,09:00,Galeno,Control general,reservado,0
+2021,C0021,6,1006,2025-05-16,11:30,Galeno,Dolor lumbar,confirmado,Reprogramado
+2022,C0022,7,1007,2025-05-17,15:00,Swiss Medical,Consulta por mareos,reservado,Primera vez
+2023,C0023,3,1003,2025-05-18,11:30,OSDE,Chequeo cardiológico,cancelado,Cancelado por el médico
+2024,C0024,15,1015,2025-05-19,09:00,PAMI,Control post-vacuna,reservado,0
+2025,C0025,3,1003,2025-05-20,10:00,IOMA,Control presión,confirmado,Paciente habitual
+2026,C0026,7,1007,2025-05-21,15:45,Galeno,Dolor de cabeza,reservado,0
+2027,C0027,15,1015,2025-05-22,11:30,OSDE,Revisión general,confirmado,0
+2028,C0028,14,1014,2025-05-23,16:15,Swiss Medical,Dolor abdominal,reservado,0
+2029,C0029,15,1017,2025-05-24,08:45,IOMA,Control general,reservado,0
+2030,C0030,9,1009,2025-05-25,13:00,PAMI,Control de diabetes,cancelado,Reprogramado
+2031,C0031,1,1001,2025-05-26,11:00,Galeno,Control de medicación,reservado,Llega tarde habitualmente
+2032,C0032,3,1003,2025-05-27,11:15,OSDE,Control del corazón,confirmado,0
+2033,C0033,3,1003,2025-05-28,09:30,Swiss Medical,Dolor de pecho,reservado,0
+2034,C0034,7,1007,2025-05-29,15:00,PAMI,Cefaleas recurrentes,reservado,Paciente deportista
+2035,C0035,3,1003,2025-05-30,10:00,IOMA,Control presión,confirmado,0
+2036,C0036,15,1018,2025-05-31,13:30,Galeno,Control post-vacuna,reservado,0
+2037,C0037,14,1014,2025-06-01,14:30,OSDE,Dolor abdominal,confirmado,Trae estudios
+2038,C0038,6,1006,2025-06-02,15:00,Swiss Medical,Dolor lumbar,reservado,0
+2039,C0039,7,1007,2025-06-03,15:00,Galeno,Dolor de cabeza,cancelado,Cancelado por el médico
+2040,C0040,15,1015,2025-06-04,10:00,PAMI,Control general,reservado,0
+2041,C0041,3,1003,2025-06-05,09:00,OSDE,Control del corazón,reservado,0
+2042,C0042,15,1017,2025-06-06,08:30,Galeno,Revisión general,confirmado,Paciente habitual
+2043,C0043,3,1003,2025-06-07,11:45,IOMA,Control presión,reservado,0
+2044,C0044,3,1003,2025-06-08,13:00,Swiss Medical,Dolor de pecho,cancelado,Cancelado por el médico
+2045,C0045,6,1006,2025-06-09,14:15,PAMI,Dolor lumbar,confirmado,0
+2046,C0046,14,1014,2025-06-10,15:00,OSDE,Dolor abdominal,reservado,Reprogramado
+2047,C0047,15,1018,2025-06-11,13:30,Galeno,Control post-vacuna,confirmado,0
+2048,C0048,3,1003,2025-06-12,11:45,Swiss Medical,Chequeo cardiológico,reservado,Trae estudios
+2049,C0049,7,1007,2025-06-13,13:45,IOMA,Cefaleas recurrentes,cancelado,Primera vez
+2050,C0050,7,1007,2025-06-14,14:00,OSDE,Consulta por mareos,confirmado,Paciente deportista
+2051,C0051,7,1007,2025-06-15,15:00,Galeno,Dolor de cabeza,reservado,0
+2052,C0055,14,1014,2025-06-16,14:00,Swiss Medical,Dolor abdominal,reservado,0
+2053,C0055,9,1009,2025-06-17,13:00,PAMI,Control de diabetes,confirmado,0
+2054,C0055,1,1001,2025-06-18,10:30,OSDE,Control de medicación,cancelado,Llega tarde habitualmente
+2055,C0055,15,1015,2025-06-19,09:00,Galeno,Control general,reservado,0
+2056,C0001,6,1006,2025-06-20,14:00,IOMA,Dolor lumbar,reservado,0
+2057,C0002,3,1003,2025-06-21,10:15,Swiss Medical,Control presión,confirmado,0
+2058,C0003,3,1003,2025-06-22,09:45,OSDE,Control del corazón,cancelado,Cancelado por el médico
+2059,C0004,15,1017,2025-06-23,08:30,Galeno,Revisión general,confirmado,0
+2060,C0005,14,1014,2025-06-24,14:00,PAMI,Dolor abdominal,reservado,0
+2061,C0001,4,1004,2025-05-14,14:00,Swiss Medical,Chequeo de piel,cancelado,Cancelación confirmada

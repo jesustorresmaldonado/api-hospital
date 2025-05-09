@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "2c78bb4f-284b-4dec-bcf3-3898e7c6a842",
+		"name": "API_Hospital_Lautaro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44721971",
+		"_collection_link": "https://alex-5932427.postman.co/workspace/Alex's-Workspace~de3657fa-dd68-478d-830a-249aed637dd4/collection/44721971-2c78bb4f-284b-4dec-bcf3-3898e7c6a842?action=share&source=collection_link&creator=44721971"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7050/registro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dni\": \"60079406\",\r\n  \"contraseña\": \"miClaveSegura\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7050/registro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"registro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7050/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dni\": \"60079406\",\r\n  \"contraseña\": \"miClaveSegura\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7050/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7050/solicitar-turno?dni=60079404&contraseña=A!f7kLx2vQ",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"fecha\": \"2025-05-21\",\r\n  \"horario\": \"14:00\",\r\n  \"obra_social\": \"Swiss Medical\",\r\n  \"especialidad\": \"Dermatología\",\r\n  \"motivo_consulta\": \"Chequeo de piel\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7050/solicitar-turno?dni=60079406&contraseña=miClaveSegura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"solicitar-turno"
+					],
+					"query": [
+						{
+							"key": "dni",
+							"value": "60079406"
+						},
+						{
+							"key": "contraseña",
+							"value": "miClaveSegura"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7050/mis-turnos?dni=60079404&contraseña=A!f7kLx2vQ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7050/mis-turnos?dni=22644717&contraseña=U$1tPk7bMn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"mis-turnos"
+					],
+					"query": [
+						{
+							"key": "dni",
+							"value": "22644717"
+						},
+						{
+							"key": "contraseña",
+							"value": "U$1tPk7bMn"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7050/cancelar-turno/2057?dni=47957341&contraseña=Xp3%23rTm9zB",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_turno\" : \"2061\"\r\n  \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7050/cancelar-turno/2059?dni=22644717&contraseña=U$1tPk7bMn",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"cancelar-turno",
+						"2059"
+					],
+					"query": [
+						{
+							"key": "dni",
+							"value": "22644717"
+						},
+						{
+							"key": "contraseña",
+							"value": "U$1tPk7bMn"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
