@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sistema de Gestión Hospitalaria</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Bienvenido al Sistema de Gestión Hospitalaria</h1>
+    <nav>
+      <ul>
+        <li><a href="#" id="nav-home">Inicio</a></li>
+        <li><a href="#" id="nav-users">Usuarios</a></li>
+        <li><a href="#" id="nav-patients">Pacientes</a></li>
+        <li><a href="#" id="nav-doctors">Médicos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home-section">
+      <h2>Hospital xxxxxx</h2>
+      <p>Altas de usuarios</p>
+      <button id="load-users-btn">Cargar alta de Usuarios</button>
+      <div id="users-list"></div>
+    </section>
+
+    <section id="create-user-section" class="hidden">
+      <h2>Alta de Usuarios</h2>
+      <!-- Aquí vendrá el formulario de alta -->
+    </section>
+
+    <section id="users-section" class="hidden">
+      <h2>Gestión de Usuarios</h2>
+    </section>
+
+    <section id="patients-section" class="hidden">
+      <h2>Gestión de Pacientes</h2>
+    </section>
+
+    <section id="doctors-section" class="hidden">
+      <h2>Gestión de Médicos</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sistema de Gestión Hospitalaria. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

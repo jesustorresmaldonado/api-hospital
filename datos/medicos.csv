@@ -1,0 +1,21 @@
+legajo,dni,id_especialidad,dias_atencion,hora_inicio,hora_fin,matricula,estado
+1001,16811587,1,"Lunes, Miércoles",08:00,12:00,12345,activo
+1002,74960639,2,"Martes, Jueves",13:00,17:00,23456,activo
+1003,85213908,3,"Lunes, Viernes",09:00,14:00,34567,activo
+1004,74441994,4,Miércoles,14:00,18:00,45678,activo
+1005,13460507,5,"Jueves, Viernes",08:30,12:30,56789,activo
+1006,86400656,6,"Lunes, Martes",10:00,17:30,67890,activo
+1007,77313026,7,"Miércoles, Viernes",15:00,19:00,78901,activo
+1008,50796203,8,Martes,08:00,12:00,89012,activo
+1009,79817391,9,Jueves,13:00,17:00,90123,activo
+1010,21195171,10,"Lunes, Jueves",09:00,13:00,91234,activo
+1011,58840572,11,"Miércoles, Viernes",10:30,14:30,92345,inactivo
+1012,50102424,12,"Martes, Jueves",08:00,11:00,93456,activo
+1013,57757221,13,"Lunes, Miércoles",13:00,17:00,94567,activo
+1014,60586271,14,Martes,14:00,18:00,95678,activo
+1015,50123499,15,"Jueves, Viernes",09:00,13:00,96789,activo
+1016,90201563,11,"Lunes, Viernes",10:00,14:00,97890,inactivo
+1017,21832505,15,Miércoles,08:30,12:30,98901,activo
+1018,54026971,15,"Martes, Jueves",13:30,17:30,99012,activo
+1019,95893896,2,"Lunes, Miércoles",09:00,13:00,99123,activo
+1020,26632315,1,Viernes,08:00,12:00,99234,activo
