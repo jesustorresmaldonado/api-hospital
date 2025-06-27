@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sistema de Gestión Hospitalaria (Simplificado)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Sistema de Gestión Hospital Malvinas Argentinas</h1>
+    <nav>
+      <ul>
+        <li><a href="#" id="nav-home">Inicio</a></li>
+        <li><a href="#" id="nav-users">Lista Personas</a></li>
+        <li><a href="#" id="nav-patients">Pacientes</a></li>
+        <li><a href="#" id="nav-doctors">Médicos</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home-section">
+      <h2>Bienvenido al Sistema Simplificado</h2>
+      <p>Aquí puedes gestionar todas las personas del sistema. Cada persona tendrá un Rol (Paciente, Médico, Administrador) definido en la misma tabla de Personas.</p>
+      <button id="load-users-btn">Gestionar Personas (Alta)</button>
+      <div id="users-list-home"></div>
+    </section>
+
+    <section id="create-user-section" class="hidden">
+      <!-- El contenido de este formulario ahora se carga directamente desde script.js al inicio del DOM -->
+    </section>
+
+    <section id="users-section" class="hidden">
+      <!-- Esta sección mostrará la lista completa de personas y los formularios CRUD -->
+    </section>
+
+    <section id="patients-section" class="hidden">
+      <!-- Mostrará la lista filtrada de personas con rol Paciente -->
+    </section>
+
+    <section id="doctors-section" class="hidden">
+      <!-- Mostrará la lista filtrada de personas con rol Médico -->
+    </section>
+
+    <!-- ELIMINADO: <section id="upload-csv-section" class="hidden"></section> -->
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sistema Simplificado.</p>
+  </footer>
+
+  <!-- ¡IMPORTANTE! El script debe ir al final del body para asegurar que todos los elementos HTML ya estén cargados -->
+  <script src="script.js"></script>
+</body>
+</html>

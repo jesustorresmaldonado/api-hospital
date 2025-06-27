@@ -1,0 +1,5 @@
+DNI,Nombre,Apellido,Email,Telefono,Rol
+11111111,Ana,Garcia,ana.garcia@hospital.com,1122334455,Paciente
+22222222,Juan,Perez,juan.perez@hospital.com,1166778899,Medico
+33333333,Maria,Lopez,maria.lopez@hospital.com,1199887766,Administrador
+44444444,Pedro,Martinez,pedro.martinez@hospital.com,1155443322,Paciente
